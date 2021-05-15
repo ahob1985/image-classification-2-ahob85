@@ -41,6 +41,8 @@
 *******************************************************************************/
 
 function setup() {
+  canvasDiv = createDiv();
+  canvas = createCanvas(640, 480);
 
 }
 
@@ -53,6 +55,8 @@ function setup() {
 *******************************************************************************/
 
 function draw() {
+  background(255);
+  ellipse(mouseX, mouseY, 50);
 
 }
 
